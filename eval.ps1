@@ -1,9 +1,11 @@
 param(
     $mode = "eval",
-    $answers = 10
+    $outfile = "",
+    $inputfile = "",
+    $consider_Answers = 10
 )
 if ($mode -eq "get-output") {
-    & python .\evaluation\get_system_output.py
+    & python .\evaluation\get_system_output.py $outfile
 }
 elseif ($mode -eq "build") {
     & python .\evaluation\buildEval.py
@@ -11,13 +13,13 @@ elseif ($mode -eq "build") {
 elseif ($mode -eq "eval") {
    
     $thres = @(0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9)
-    $types = @("ALL", "hasTimeSpan", "tookPlaceAt", "carriedOutBy", "showsFeatures", "fallsWithin", "hadParticipant")  
+    $types = @("ALL", "BeginsAt", "tookPlaceAt", "carriedOutBy", "showsFeatures", "fallsWithin", "hadParticipant","hadParticipantBegins","falltookPlace","fallhasTimeSpan")  
     $output = @()
     foreach ($threshold in $thres) {
         foreach ($type in $types) {
             Write-Host "Using threshold: " $threshold " and type: " $type
-            & python .\evaluation\filter_system_output.py $threshold $type
-            $results = & python .\evaluation\evaluate.py .\evaluation\system_output_filtered.json 10 | ConvertFrom-Json
+            & python .\evaluation\filter_system_output.py $threshold $type $inputfile
+            $results = & python .\evaluation\evaluate.py .\evaluation\system_output_filtered.json $consider_Answers | ConvertFrom-Json
             $results | Add-Member -Name "type" -Value $type -MemberType NoteProperty
             $results | Add-Member -Name "threshold" -Value $threshold -MemberType NoteProperty
             $output = $output + $results

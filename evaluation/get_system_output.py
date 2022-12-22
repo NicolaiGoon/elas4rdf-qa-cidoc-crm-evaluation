@@ -3,7 +3,11 @@ import json
 import sys
 
 qa_url = 'http://127.0.0.1:5000/answer'
-output_file = './evaluation/system_output.json'
+try:
+    output_file = sys.argv[1]
+except:
+    print("please provide output file")
+    exit(1)
 
 dataset = []
 with open('./evaluation/evalcoll.json', encoding='utf8') as json_file:

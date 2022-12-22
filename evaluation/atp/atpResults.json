@@ -1,0 +1,902 @@
+[
+  {
+    "precision": 9.458080569712909,
+    "recall": 67.45633537968031,
+    "f1": 15.456231427318919,
+    "accuracy": 72.26480836236934,
+    "total": 1435,
+    "type": "ALL",
+    "threshold": 0.0
+  },
+  {
+    "precision": 3.465437074636945,
+    "recall": 37.541528239202655,
+    "f1": 6.020252965495002,
+    "accuracy": 37.541528239202655,
+    "total": 301,
+    "type": "BeginsAt",
+    "threshold": 0.0
+  },
+  {
+    "precision": 10.141460899923848,
+    "recall": 73.00197405527354,
+    "f1": 16.420538891870972,
+    "accuracy": 77.66497461928934,
+    "total": 197,
+    "type": "tookPlaceAt",
+    "threshold": 0.0
+  },
+  {
+    "precision": 13.843667611501878,
+    "recall": 91.25318066157762,
+    "f1": 21.702949405658423,
+    "accuracy": 93.12977099236642,
+    "total": 131,
+    "type": "carriedOutBy",
+    "threshold": 0.0
+  },
+  {
+    "precision": 12.833840682017337,
+    "recall": 99.33554817275747,
+    "f1": 21.391519162165828,
+    "accuracy": 99.33554817275747,
+    "total": 301,
+    "type": "showsFeatures",
+    "threshold": 0.0
+  },
+  {
+    "precision": 13.543995475390927,
+    "recall": 86.4814814814815,
+    "f1": 22.788214077310933,
+    "accuracy": 97.6608187134503,
+    "total": 171,
+    "type": "fallsWithin",
+    "threshold": 0.0
+  },
+  {
+    "precision": 15.783612304677813,
+    "recall": 78.40579710144927,
+    "f1": 24.734674935050087,
+    "accuracy": 89.1304347826087,
+    "total": 92,
+    "type": "hadParticipant",
+    "threshold": 0.0
+  },
+  {
+    "precision": 4.0078663453276455,
+    "recall": 23.648809523809522,
+    "f1": 6.085063064613971,
+    "accuracy": 52.5,
+    "total": 40,
+    "type": "hadParticipantBegins",
+    "threshold": 0.0
+  },
+  {
+    "precision": 8.672957439519122,
+    "recall": 51.70068027210885,
+    "f1": 13.17676764192777,
+    "accuracy": 67.34693877551021,
+    "total": 98,
+    "type": "falltookPlace",
+    "threshold": 0.0
+  },
+  {
+    "precision": 0.7355261267799968,
+    "recall": 12.01923076923077,
+    "f1": 1.3818817422936411,
+    "accuracy": 13.461538461538462,
+    "total": 104,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.0
+  },
+  {
+    "precision": 13.136787600829988,
+    "recall": 64.99900309041969,
+    "f1": 19.71517962831899,
+    "accuracy": 70.13258897418004,
+    "total": 1433,
+    "type": "ALL",
+    "threshold": 0.1
+  },
+  {
+    "precision": 3.952812244070261,
+    "recall": 36.54485049833887,
+    "f1": 6.8065991677889714,
+    "accuracy": 36.54485049833887,
+    "total": 301,
+    "type": "BeginsAt",
+    "threshold": 0.1
+  },
+  {
+    "precision": 10.887330854221306,
+    "recall": 71.73293852227862,
+    "f1": 17.500016814243246,
+    "accuracy": 76.14213197969544,
+    "total": 197,
+    "type": "tookPlaceAt",
+    "threshold": 0.1
+  },
+  {
+    "precision": 16.50319281298004,
+    "recall": 88.7086513994911,
+    "f1": 25.12372096001518,
+    "accuracy": 90.07633587786259,
+    "total": 131,
+    "type": "carriedOutBy",
+    "threshold": 0.1
+  },
+  {
+    "precision": 25.906150400167895,
+    "recall": 99.66555183946488,
+    "f1": 36.15607628439183,
+    "accuracy": 99.66555183946488,
+    "total": 299,
+    "type": "showsFeatures",
+    "threshold": 0.1
+  },
+  {
+    "precision": 16.014732953885982,
+    "recall": 83.54590179151583,
+    "f1": 26.108291447951835,
+    "accuracy": 95.90643274853801,
+    "total": 171,
+    "type": "fallsWithin",
+    "threshold": 0.1
+  },
+  {
+    "precision": 16.492897897634467,
+    "recall": 65.47101449275361,
+    "f1": 24.538652845434452,
+    "accuracy": 79.34782608695652,
+    "total": 92,
+    "type": "hadParticipant",
+    "threshold": 0.1
+  },
+  {
+    "precision": 6.295293776272038,
+    "recall": 21.625,
+    "f1": 8.53738585228355,
+    "accuracy": 50.0,
+    "total": 40,
+    "type": "hadParticipantBegins",
+    "threshold": 0.1
+  },
+  {
+    "precision": 10.044022990076469,
+    "recall": 47.10884353741497,
+    "f1": 14.589953982480656,
+    "accuracy": 64.28571428571429,
+    "total": 98,
+    "type": "falltookPlace",
+    "threshold": 0.1
+  },
+  {
+    "precision": 0.8708345607384067,
+    "recall": 7.6923076923076925,
+    "f1": 1.541381412704942,
+    "accuracy": 8.653846153846153,
+    "total": 104,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.1
+  },
+  {
+    "precision": 15.722708309724743,
+    "recall": 61.73950592599998,
+    "f1": 22.431022003898978,
+    "accuracy": 67.31980405878237,
+    "total": 1429,
+    "type": "ALL",
+    "threshold": 0.2
+  },
+  {
+    "precision": 4.6423844007896085,
+    "recall": 30.76923076923077,
+    "f1": 7.4746093926644095,
+    "accuracy": 30.76923076923077,
+    "total": 299,
+    "type": "BeginsAt",
+    "threshold": 0.2
+  },
+  {
+    "precision": 12.880859859781289,
+    "recall": 70.44275239706712,
+    "f1": 20.17294329159105,
+    "accuracy": 74.61928934010152,
+    "total": 197,
+    "type": "tookPlaceAt",
+    "threshold": 0.2
+  },
+  {
+    "precision": 18.5681632255045,
+    "recall": 87.88167938931299,
+    "f1": 27.892033242356955,
+    "accuracy": 89.31297709923665,
+    "total": 131,
+    "type": "carriedOutBy",
+    "threshold": 0.2
+  },
+  {
+    "precision": 29.277042804659057,
+    "recall": 99.66555183946488,
+    "f1": 40.30135303697473,
+    "accuracy": 99.66555183946488,
+    "total": 299,
+    "type": "showsFeatures",
+    "threshold": 0.2
+  },
+  {
+    "precision": 23.52747570544449,
+    "recall": 78.11671335200747,
+    "f1": 33.727049153560706,
+    "accuracy": 94.11764705882354,
+    "total": 170,
+    "type": "fallsWithin",
+    "threshold": 0.2
+  },
+  {
+    "precision": 17.867986450853525,
+    "recall": 62.39130434782608,
+    "f1": 25.933989804238294,
+    "accuracy": 77.17391304347827,
+    "total": 92,
+    "type": "hadParticipant",
+    "threshold": 0.2
+  },
+  {
+    "precision": 10.06547619047619,
+    "recall": 16.029761904761905,
+    "f1": 9.677521008403364,
+    "accuracy": 37.5,
+    "total": 40,
+    "type": "hadParticipantBegins",
+    "threshold": 0.2
+  },
+  {
+    "precision": 12.829732161245998,
+    "recall": 37.5,
+    "f1": 15.716974529430399,
+    "accuracy": 58.16326530612245,
+    "total": 98,
+    "type": "falltookPlace",
+    "threshold": 0.2
+  },
+  {
+    "precision": 0.5089732274198294,
+    "recall": 4.854368932038835,
+    "f1": 0.913609044677006,
+    "accuracy": 4.854368932038835,
+    "total": 103,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.2
+  },
+  {
+    "precision": 18.928284486745213,
+    "recall": 59.588449102338,
+    "f1": 25.750889578373304,
+    "accuracy": 64.67236467236468,
+    "total": 1404,
+    "type": "ALL",
+    "threshold": 0.3
+  },
+  {
+    "precision": 4.805421126684218,
+    "recall": 28.424657534246574,
+    "f1": 7.66334495574497,
+    "accuracy": 28.424657534246574,
+    "total": 292,
+    "type": "BeginsAt",
+    "threshold": 0.3
+  },
+  {
+    "precision": 15.695150953059828,
+    "recall": 66.2126339537507,
+    "f1": 23.47566486145653,
+    "accuracy": 71.06598984771574,
+    "total": 197,
+    "type": "tookPlaceAt",
+    "threshold": 0.3
+  },
+  {
+    "precision": 25.979734354317582,
+    "recall": 86.50641025641026,
+    "f1": 36.96705492565942,
+    "accuracy": 87.6923076923077,
+    "total": 130,
+    "type": "carriedOutBy",
+    "threshold": 0.3
+  },
+  {
+    "precision": 32.49220497936919,
+    "recall": 99.33110367892976,
+    "f1": 44.05049362948247,
+    "accuracy": 99.33110367892976,
+    "total": 299,
+    "type": "showsFeatures",
+    "threshold": 0.3
+  },
+  {
+    "precision": 32.18017150688726,
+    "recall": 73.96967968824255,
+    "f1": 41.57601148383227,
+    "accuracy": 89.22155688622755,
+    "total": 167,
+    "type": "fallsWithin",
+    "threshold": 0.3
+  },
+  {
+    "precision": 20.42540779000093,
+    "recall": 60.724637681159415,
+    "f1": 27.69683079847198,
+    "accuracy": 75.0,
+    "total": 92,
+    "type": "hadParticipant",
+    "threshold": 0.3
+  },
+  {
+    "precision": 11.236559139784946,
+    "recall": 12.350230414746544,
+    "f1": 8.323619770488841,
+    "accuracy": 29.032258064516128,
+    "total": 31,
+    "type": "hadParticipantBegins",
+    "threshold": 0.3
+  },
+  {
+    "precision": 14.041729245810878,
+    "recall": 30.102040816326532,
+    "f1": 15.790970871165412,
+    "accuracy": 46.93877551020408,
+    "total": 98,
+    "type": "falltookPlace",
+    "threshold": 0.3
+  },
+  {
+    "precision": 0.10204081632653061,
+    "recall": 1.0204081632653061,
+    "f1": 0.1855287569573284,
+    "accuracy": 1.0204081632653061,
+    "total": 98,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.3
+  },
+  {
+    "precision": 22.783300866443927,
+    "recall": 57.550835916220535,
+    "f1": 29.22589766542673,
+    "accuracy": 62.79585798816568,
+    "total": 1352,
+    "type": "ALL",
+    "threshold": 0.4
+  },
+  {
+    "precision": 4.982616944982535,
+    "recall": 25.448028673835125,
+    "f1": 7.757759552509712,
+    "accuracy": 25.448028673835125,
+    "total": 279,
+    "type": "BeginsAt",
+    "threshold": 0.4
+  },
+  {
+    "precision": 21.262210012210012,
+    "recall": 57.66609392898053,
+    "f1": 28.244625009785697,
+    "accuracy": 62.88659793814433,
+    "total": 194,
+    "type": "tookPlaceAt",
+    "threshold": 0.4
+  },
+  {
+    "precision": 36.35475802567049,
+    "recall": 86.28608923884515,
+    "f1": 46.27522973618186,
+    "accuracy": 87.4015748031496,
+    "total": 127,
+    "type": "carriedOutBy",
+    "threshold": 0.4
+  },
+  {
+    "precision": 35.71879346962964,
+    "recall": 99.33110367892976,
+    "f1": 47.5795033654566,
+    "accuracy": 99.33110367892976,
+    "total": 299,
+    "type": "showsFeatures",
+    "threshold": 0.4
+  },
+  {
+    "precision": 37.95228230060801,
+    "recall": 66.85704547667738,
+    "f1": 45.21110615577465,
+    "accuracy": 85.2760736196319,
+    "total": 163,
+    "type": "fallsWithin",
+    "threshold": 0.4
+  },
+  {
+    "precision": 23.21029753494587,
+    "recall": 59.05797101449275,
+    "f1": 30.00364558565526,
+    "accuracy": 73.91304347826087,
+    "total": 92,
+    "type": "hadParticipant",
+    "threshold": 0.4
+  },
+  {
+    "precision": 11.764705882352942,
+    "recall": 6.302521008403361,
+    "f1": 6.666666666666666,
+    "accuracy": 11.764705882352942,
+    "total": 17,
+    "type": "hadParticipantBegins",
+    "threshold": 0.4
+  },
+  {
+    "precision": 16.89035628183701,
+    "recall": 27.873563218390803,
+    "f1": 17.50846854295129,
+    "accuracy": 44.827586206896555,
+    "total": 87,
+    "type": "falltookPlace",
+    "threshold": 0.4
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 94,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.4
+  },
+  {
+    "precision": 25.729530000951684,
+    "recall": 55.0297696492076,
+    "f1": 31.42668090434688,
+    "accuracy": 60.421545667447305,
+    "total": 1281,
+    "type": "ALL",
+    "threshold": 0.5
+  },
+  {
+    "precision": 5.380488852711072,
+    "recall": 24.074074074074073,
+    "f1": 8.196171112837776,
+    "accuracy": 24.074074074074073,
+    "total": 270,
+    "type": "BeginsAt",
+    "threshold": 0.5
+  },
+  {
+    "precision": 21.698319601545403,
+    "recall": 48.41696535244923,
+    "f1": 27.23867828706538,
+    "accuracy": 52.68817204301075,
+    "total": 186,
+    "type": "tookPlaceAt",
+    "threshold": 0.5
+  },
+  {
+    "precision": 41.87542437670316,
+    "recall": 90.28985507246375,
+    "f1": 52.516619451402036,
+    "accuracy": 91.30434782608695,
+    "total": 115,
+    "type": "carriedOutBy",
+    "threshold": 0.5
+  },
+  {
+    "precision": 40.8922094821749,
+    "recall": 96.53979238754326,
+    "f1": 52.226466344113476,
+    "accuracy": 96.53979238754326,
+    "total": 289,
+    "type": "showsFeatures",
+    "threshold": 0.5
+  },
+  {
+    "precision": 44.301999866041605,
+    "recall": 61.27163338453662,
+    "f1": 48.53639791525539,
+    "accuracy": 82.58064516129032,
+    "total": 155,
+    "type": "fallsWithin",
+    "threshold": 0.5
+  },
+  {
+    "precision": 23.439485710009304,
+    "recall": 53.11355311355312,
+    "f1": 29.050224074039257,
+    "accuracy": 67.03296703296704,
+    "total": 91,
+    "type": "hadParticipant",
+    "threshold": 0.5
+  },
+  {
+    "precision": 15.384615384615385,
+    "recall": 8.241758241758241,
+    "f1": 8.717948717948717,
+    "accuracy": 15.384615384615385,
+    "total": 13,
+    "type": "hadParticipantBegins",
+    "threshold": 0.5
+  },
+  {
+    "precision": 21.2673113322464,
+    "recall": 29.437229437229437,
+    "f1": 20.328733315746298,
+    "accuracy": 46.753246753246756,
+    "total": 77,
+    "type": "falltookPlace",
+    "threshold": 0.5
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 85,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.5
+  },
+  {
+    "precision": 28.336797012494966,
+    "recall": 51.77720095627275,
+    "f1": 33.26317583534027,
+    "accuracy": 56.654991243432576,
+    "total": 1142,
+    "type": "ALL",
+    "threshold": 0.6
+  },
+  {
+    "precision": 6.639816849816846,
+    "recall": 24.8,
+    "f1": 9.719593739593735,
+    "accuracy": 24.8,
+    "total": 250,
+    "type": "BeginsAt",
+    "threshold": 0.6
+  },
+  {
+    "precision": 23.72759103641457,
+    "recall": 41.25816993464052,
+    "f1": 27.303497156438322,
+    "accuracy": 44.705882352941174,
+    "total": 170,
+    "type": "tookPlaceAt",
+    "threshold": 0.6
+  },
+  {
+    "precision": 49.251080312661216,
+    "recall": 90.25297619047618,
+    "f1": 59.238629756486866,
+    "accuracy": 91.07142857142857,
+    "total": 112,
+    "type": "carriedOutBy",
+    "threshold": 0.6
+  },
+  {
+    "precision": 44.256070016939574,
+    "recall": 86.56126482213439,
+    "f1": 54.0605091000348,
+    "accuracy": 86.56126482213439,
+    "total": 253,
+    "type": "showsFeatures",
+    "threshold": 0.6
+  },
+  {
+    "precision": 49.03245310245311,
+    "recall": 59.792063492063505,
+    "f1": 51.452811900861406,
+    "accuracy": 80.0,
+    "total": 125,
+    "type": "fallsWithin",
+    "threshold": 0.6
+  },
+  {
+    "precision": 25.50242371265099,
+    "recall": 50.75757575757576,
+    "f1": 30.33113480165267,
+    "accuracy": 64.77272727272727,
+    "total": 88,
+    "type": "hadParticipant",
+    "threshold": 0.6
+  },
+  {
+    "precision": 12.5,
+    "recall": 12.5,
+    "f1": 12.5,
+    "accuracy": 12.5,
+    "total": 8,
+    "type": "hadParticipantBegins",
+    "threshold": 0.6
+  },
+  {
+    "precision": 25.531049410359753,
+    "recall": 32.183908045977006,
+    "f1": 24.1771925392615,
+    "accuracy": 51.724137931034484,
+    "total": 58,
+    "type": "falltookPlace",
+    "threshold": 0.6
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 78,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.6
+  },
+  {
+    "precision": 30.704693952320532,
+    "recall": 47.87342609336279,
+    "f1": 34.30326278160564,
+    "accuracy": 52.10970464135021,
+    "total": 948,
+    "type": "ALL",
+    "threshold": 0.7
+  },
+  {
+    "precision": 8.839414553700268,
+    "recall": 24.675324675324674,
+    "f1": 11.805707519993229,
+    "accuracy": 24.675324675324674,
+    "total": 231,
+    "type": "BeginsAt",
+    "threshold": 0.7
+  },
+  {
+    "precision": 24.91666666666667,
+    "recall": 39.861111111111114,
+    "f1": 28.16955266955266,
+    "accuracy": 41.42857142857143,
+    "total": 140,
+    "type": "tookPlaceAt",
+    "threshold": 0.7
+  },
+  {
+    "precision": 56.22668240850062,
+    "recall": 90.07575757575756,
+    "f1": 65.2171717171717,
+    "accuracy": 90.9090909090909,
+    "total": 110,
+    "type": "carriedOutBy",
+    "threshold": 0.7
+  },
+  {
+    "precision": 48.161453930684694,
+    "recall": 71.59763313609467,
+    "f1": 54.1039729501268,
+    "accuracy": 71.59763313609467,
+    "total": 169,
+    "type": "showsFeatures",
+    "threshold": 0.7
+  },
+  {
+    "precision": 53.44514695830485,
+    "recall": 63.5451127819549,
+    "f1": 56.238418055429584,
+    "accuracy": 78.94736842105263,
+    "total": 95,
+    "type": "fallsWithin",
+    "threshold": 0.7
+  },
+  {
+    "precision": 28.64416955593427,
+    "recall": 50.7843137254902,
+    "f1": 31.928433926703818,
+    "accuracy": 63.529411764705884,
+    "total": 85,
+    "type": "hadParticipant",
+    "threshold": 0.7
+  },
+  {
+    "precision": 16.666666666666668,
+    "recall": 16.666666666666668,
+    "f1": 16.666666666666668,
+    "accuracy": 16.666666666666668,
+    "total": 6,
+    "type": "hadParticipantBegins",
+    "threshold": 0.7
+  },
+  {
+    "precision": 32.83095238095238,
+    "recall": 32.83333333333333,
+    "f1": 27.492207792207793,
+    "accuracy": 56.0,
+    "total": 50,
+    "type": "falltookPlace",
+    "threshold": 0.7
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 62,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.7
+  },
+  {
+    "precision": 36.51835331166637,
+    "recall": 51.75815361605634,
+    "f1": 39.81109613909543,
+    "accuracy": 56.99088145896656,
+    "total": 658,
+    "type": "ALL",
+    "threshold": 0.8
+  },
+  {
+    "precision": 12.994362316170829,
+    "recall": 27.127659574468087,
+    "f1": 15.881394019691891,
+    "accuracy": 27.127659574468087,
+    "total": 188,
+    "type": "BeginsAt",
+    "threshold": 0.8
+  },
+  {
+    "precision": 44.65447154471545,
+    "recall": 59.21409214092141,
+    "f1": 48.650793650793645,
+    "accuracy": 60.97560975609756,
+    "total": 82,
+    "type": "tookPlaceAt",
+    "threshold": 0.8
+  },
+  {
+    "precision": 59.59650412480603,
+    "recall": 87.73584905660377,
+    "f1": 67.45167306488058,
+    "accuracy": 87.73584905660377,
+    "total": 106,
+    "type": "carriedOutBy",
+    "threshold": 0.8
+  },
+  {
+    "precision": 50.0,
+    "recall": 61.72839506172839,
+    "f1": 53.29218106995885,
+    "accuracy": 61.72839506172839,
+    "total": 81,
+    "type": "showsFeatures",
+    "threshold": 0.8
+  },
+  {
+    "precision": 54.87468671679197,
+    "recall": 64.09617794486216,
+    "f1": 57.33905370515274,
+    "accuracy": 85.52631578947368,
+    "total": 76,
+    "type": "fallsWithin",
+    "threshold": 0.8
+  },
+  {
+    "precision": 30.62828282828283,
+    "recall": 52.39999999999999,
+    "f1": 33.52941132941133,
+    "accuracy": 65.33333333333333,
+    "total": 75,
+    "type": "hadParticipant",
+    "threshold": 0.8
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 3,
+    "type": "hadParticipantBegins",
+    "threshold": 0.8
+  },
+  {
+    "precision": 37.57389162561577,
+    "recall": 34.48275862068966,
+    "f1": 30.400557297109025,
+    "accuracy": 58.62068965517241,
+    "total": 29,
+    "type": "falltookPlace",
+    "threshold": 0.8
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 18,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.8
+  },
+  {
+    "precision": 44.779381112714425,
+    "recall": 54.16192680776014,
+    "f1": 45.78007332174,
+    "accuracy": 60.0,
+    "total": 360,
+    "type": "ALL",
+    "threshold": 0.9
+  },
+  {
+    "precision": 22.214063195371608,
+    "recall": 31.77570093457944,
+    "f1": 24.485981308411215,
+    "accuracy": 31.77570093457944,
+    "total": 107,
+    "type": "BeginsAt",
+    "threshold": 0.9
+  },
+  {
+    "precision": 48.21969696969697,
+    "recall": 56.94444444444445,
+    "f1": 50.05050505050507,
+    "accuracy": 61.36363636363637,
+    "total": 44,
+    "type": "tookPlaceAt",
+    "threshold": 0.9
+  },
+  {
+    "precision": 69.37751004016064,
+    "recall": 87.65060240963855,
+    "f1": 74.62229871868422,
+    "accuracy": 87.95180722891567,
+    "total": 83,
+    "type": "carriedOutBy",
+    "threshold": 0.9
+  },
+  {
+    "precision": 53.333333333333336,
+    "recall": 53.333333333333336,
+    "f1": 53.333333333333336,
+    "accuracy": 53.333333333333336,
+    "total": 15,
+    "type": "showsFeatures",
+    "threshold": 0.9
+  },
+  {
+    "precision": 60.7183908045977,
+    "recall": 66.81855500821018,
+    "f1": 61.80606749572267,
+    "accuracy": 82.75862068965517,
+    "total": 29,
+    "type": "fallsWithin",
+    "threshold": 0.9
+  },
+  {
+    "precision": 40.669361020923525,
+    "recall": 52.81249999999999,
+    "f1": 40.09235556110557,
+    "accuracy": 67.1875,
+    "total": 64,
+    "type": "hadParticipant",
+    "threshold": 0.9
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 2,
+    "type": "hadParticipantBegins",
+    "threshold": 0.9
+  },
+  {
+    "precision": 53.84615384615385,
+    "recall": 15.384615384615385,
+    "f1": 23.589743589743588,
+    "accuracy": 53.84615384615385,
+    "total": 13,
+    "type": "falltookPlace",
+    "threshold": 0.9
+  },
+  {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "total": 3,
+    "type": "fallhasTimeSpan",
+    "threshold": 0.9
+  }
+]

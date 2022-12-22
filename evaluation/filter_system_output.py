@@ -8,7 +8,14 @@ import json
 import sys
 
 dataset = []
-with open('evaluation/system_output.json', encoding='utf8') as json_file:
+
+try:
+    infile = sys.argv[3]
+except:
+    infile = None
+
+
+with open(infile, encoding='utf8') as json_file:
     dataset = json.load(json_file)
 
 out2 = []
@@ -18,6 +25,8 @@ try:
     qtype = sys.argv[2]
 except:
     qtype = None
+
+
 
 if(qtype and qtype == "ALL"):
     qtype = None

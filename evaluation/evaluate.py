@@ -6,13 +6,17 @@ It is a modified version of the official evaluation script for SQuAD 2
 Example Usage:
 `python evaluate.py system_output_filtered.json`
 """
-import re
 import collections
 import json
+import re
 import string
 import sys
 
-system_output_path = sys.argv[1]
+try:
+  system_output_path = sys.argv[1]
+except:
+  print("evaluate.py: no output specified")
+
 try:
   answers_to_consider = int(sys.argv[2])
 except:
